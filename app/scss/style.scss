@@ -14,16 +14,12 @@ $dark-gray: hsl(0, 0%, 59%);
 }
 body{
     font-family: 'Kumbh Sans', sans-serif;
-   
-
-    // url('/images/bg-pattern-bottom.svg')
 
 }
 
 .wrapper{
     width: 100%;
     min-height: 100vh;
-    //min-width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +27,7 @@ body{
     background: url('/images/bg-pattern-top.svg'),url('/images/bg-pattern-bottom.svg'),  $dark-cyan;
     background-position: -60% 190%, 180% -120%;
     background-repeat: no-repeat, no-repeat;
-    // background-position: left top, right bottom;
+
 
   
     padding: 1rem;
@@ -68,7 +64,7 @@ body{
 }
 
 .card__header-bottom{
-   border-bottom: solid 1px $dark-grayish-blue;;
+    border-bottom: solid 1px rgba(170, 173, 182, 0.7);
     
     display: flex;
     flex-direction: column;
@@ -126,7 +122,6 @@ ul{
 .card__data-value{
     font-size: 18px;
     padding-bottom: .4rem  ; 
-
     color: black;
 }
 
