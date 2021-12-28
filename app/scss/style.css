@@ -26,7 +26,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: url("/images/bg-pattern-top.svg"), url("https://github.com/simplyJC/profile-card-component-main/blob/master/images/bg-pattern-bottom.svg"), #19a2ae;
+  background: url("./images/bg-pattern-top.svg"), url("https://github.com/simplyJC/profile-card-component-main/blob/master/images/bg-pattern-bottom.svg"), #19a2ae;
   background-position: -60% 190%, 180% -120%;
   background-repeat: no-repeat, no-repeat;
   padding: 1rem;
