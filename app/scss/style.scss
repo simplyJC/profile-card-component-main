@@ -24,7 +24,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url('/profile-card-component-main/images/bg-pattern-top.svg'),url('https://raw.githubusercontent.com/simplyJC/profile-card-component-main/f6dc8f66d36b4d2c4aa7a84430088db1f4d6a577/images/bg-pattern-bottom.svg'),  $dark-cyan;
+    background: 
+    url('https://raw.githubusercontent.com/simplyJC/profile-card-component-main/afa9b9893b4245ad83b7a74894e62aaa15716ed3/images/bg-pattern-top.svg'), 
+    url('https://raw.githubusercontent.com/simplyJC/profile-card-component-main/f6dc8f66d36b4d2c4aa7a84430088db1f4d6a577/images/bg-pattern-bottom.svg'),  
+    $dark-cyan;
     background-position: -60% 190%, 180% -120%;
     background-repeat: no-repeat, no-repeat;
 
@@ -64,7 +67,7 @@ body{
 }
 
 .card__header-bottom{
-    border-bottom: solid 1px rgba(170, 173, 182, 0.7);
+    border-bottom: solid 1px $dark-gray;
     
     display: flex;
     flex-direction: column;
@@ -90,6 +93,7 @@ body{
 h1{
     font-size: 18px;
     display: inline;
+    color:$dark-desaturated-blue
 }
 .card__data--gray{
  display: inline;
@@ -122,7 +126,7 @@ ul{
 .card__data-value{
     font-size: 18px;
     padding-bottom: .4rem  ; 
-    color: black;
+    color: $dark-desaturated-blue;
 }
 
 footer{
